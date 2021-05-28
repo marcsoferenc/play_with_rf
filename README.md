@@ -59,3 +59,33 @@ source setup.sh
 ```commandline
 python main.py
 ```
+
+## Folder Structure
+
+Move Robot Framework Forward To Screenplay Pattern
+
+It is not a perfect solution, but most of the times the Page Objects
+are hurting some principles like **Single Responsibility Principle**
+So with Actions and Observations free the Page Object a little.
+
+```
+*
+|
+*-- src/
+        *
+        |
+        *-- Data/  -- Config Variables, SUT Data etc.
+        |
+        *-- Libraries/  -- Own Libraries for Robot Framework
+        |
+        *-- Resources/
+        |             *
+        |             |
+        |             *-- Actions/  -- Actions which are performed by the end user
+        |             |
+        |             *-- Observations/  -- Checkings
+        |             |
+        |             *-- PageObjects/  -- Only Defines How to Access WebElements
+        |             |
+        *-- Tests/ -- Test Suites structure
+```
