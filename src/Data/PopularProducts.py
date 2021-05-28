@@ -1,0 +1,8 @@
+FIRST_ITEM_NAME = 'Faded Short Sleeve T-shirts'
+FIRST_ITEM_PRICE = '$16.51'
+
+SECOND_ITEM_NAME = 'Blouse'
+SECOND_ITEM_PRICE = '$27.00'
+
+THIRD_ITEM_NAME = 'Printed Dress'
+THIRD_ITEM_PRICE = '$26.00'
