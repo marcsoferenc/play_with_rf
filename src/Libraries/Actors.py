@@ -1,7 +1,7 @@
 """
-Lightweight Faker Like Solution.
+Light Wight Faker Like Solution.
 
-I know that is Faker awesome. I just wanted to show,
+I know that existing Faker is awesome. I just wanted to show,
 that I could write my own Library, if necessary.
 """
 import random
@@ -12,6 +12,17 @@ from typing import Dict
 
 class Actors:
     def a_visitor_user(self) -> Dict[str, str]:
+        """
+        Documentation
+
+        Returns a random vistor user.
+
+        The returned dictionary contains the required field
+        for registration.
+
+        Example:
+        | ${user} = | A Visitor User |
+        """
         user_data = {}
         user_data['email'] = self._email()
         user_data['first_name'] = self._first_name()
