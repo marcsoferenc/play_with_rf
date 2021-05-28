@@ -4,7 +4,7 @@
 
 This is a simple practice to play with [Robot Framework](https://robotframework.org).
 
-## How To Set Up This?
+## How To Set Up This (General)?
 
 ### Prerequisites
 
@@ -44,6 +44,15 @@ To stop/teardown docker images.
 ```commandline
 docker-compose down
 ```
+
+## How To Set Up This (Ubuntu)?
+
+You are lucky, there is an out of the box shell script, which is waiting for you.
+
+```commandline
+source setup.sh
+```
+
 
 ## How To Start Testing
 
