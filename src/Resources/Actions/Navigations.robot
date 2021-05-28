@@ -19,3 +19,6 @@ Navigate To
 
 "${I}" Am On The Home Page
     Navigate To    /
+
+"${I}" Am On The Authentication Page
+    Navigate To    /index.php?controller=authentication&back=my-account
